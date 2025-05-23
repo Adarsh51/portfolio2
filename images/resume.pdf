@@ -1,0 +1,93 @@
+/* Create a simple PDF resume */
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<< /Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/Resources << /Font << /F1 4 0 R >>
+>>
+/MediaBox [0 0 612 792]
+/Contents 5 0 R
+>>
+endobj
+4 0 obj
+<< /Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+5 0 obj
+<< /Length 676 >>
+stream
+BT
+/F1 24 Tf
+50 700 Td
+(YOUR NAME) Tj
+/F1 12 Tf
+0 -30 Td
+(Aspiring CSE Engineer | Passionate Developer) Tj
+0 -20 Td
+(Email: your.email@example.com | Phone: (123) 456-7890) Tj
+0 -20 Td
+(Location: Your City, Country | Portfolio: www.yourportfolio.com) Tj
+
+/F1 16 Tf
+0 -40 Td
+(EDUCATION) Tj
+/F1 12 Tf
+0 -20 Td
+(Bachelor of Computer Science Engineering) Tj
+0 -15 Td
+(University Name - Expected Graduation: 2026) Tj
+
+/F1 16 Tf
+0 -30 Td
+(SKILLS) Tj
+/F1 12 Tf
+0 -20 Td
+(Programming Languages: Python, JavaScript, Java, C++) Tj
+0 -15 Td
+(Web Technologies: HTML5, CSS3, React.js, Node.js) Tj
+0 -15 Td
+(Tools & Others: Git, Docker, SQL, AWS, Figma) Tj
+
+/F1 16 Tf
+0 -30 Td
+(PROJECTS) Tj
+/F1 12 Tf
+0 -20 Td
+(Weather Application - A responsive weather app with real-time updates) Tj
+0 -15 Td
+(Image Recognition System - AI-based image recognition with high accuracy) Tj
+0 -15 Td
+(E-commerce Platform - Fully functional with product listings and cart) Tj
+0 -15 Td
+(Task Automation Tool - Automates repetitive tasks for improved productivity) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000234 00000 n
+0000000302 00000 n
+trailer
+<< /Size 6
+/Root 1 0 R
+>>
+startxref
+1029
+%%EOF
